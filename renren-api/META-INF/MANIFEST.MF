@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Main-Class: io.renren.ApiApplication
+Class-Path: mapstruct-1.3.1.Final.jar logback-classic-1.2.11.jar spring-
+ boot-autoconfigure-2.7.1.jar spring-boot-starter-tomcat-2.7.1.jar sprin
+ g-boot-starter-json-2.7.1.jar spring-jcl-5.3.21.jar logback-core-1.2.11
+ .jar spring-boot-starter-data-redis-2.7.1.jar springfox-swagger-common-
+ 2.10.5.jar jackson-core-2.13.3.jar gson-2.9.0.jar springfox-core-2.10.5
+ .jar joda-time-2.10.14.jar jul-to-slf4j-1.7.36.jar jakarta.annotation-a
+ pi-1.3.5.jar springfox-spi-2.10.5.jar spring-core-5.3.21.jar knife4j-sp
+ ring-boot-starter-2.0.9.jar spring-plugin-core-2.0.0.RELEASE.jar swagge
+ r-models-1.5.22.jar reactor-core-3.4.19.jar kotlin-stdlib-1.6.21.jar kn
+ ife4j-spring-2.0.9.jar spring-boot-starter-2.7.1.jar sqljdbc4-4.0.jar l
+ og4j-to-slf4j-2.17.2.jar spring-boot-starter-logging-2.7.1.jar spring-b
+ oot-starter-validation-2.7.1.jar spring-aop-5.3.21.jar jackson-datatype
+ -jsr310-2.13.3.jar netty-buffer-4.1.78.Final.jar springfox-spring-web-2
+ .10.5.jar lettuce-core-6.1.8.RELEASE.jar springfox-schema-2.10.5.jar sp
+ ring-beans-5.3.21.jar lombok-1.18.24.jar spring-boot-starter-web-2.7.1.
+ jar spring-oxm-5.3.21.jar classmate-1.5.1.jar annotations-13.0.jar java
+ ssist-3.25.0-GA.jar mybatis-plus-core-3.5.2.jar json-20211205.jar commo
+ ns-pool2-2.11.1.jar spring-data-commons-2.7.1.jar hutool-all-5.7.22.jar
+  spring-context-support-5.3.21.jar spring-boot-configuration-processor-
+ 2.7.1.jar spring-boot-2.7.1.jar tomcat-embed-el-9.0.64.jar mybatis-plus
+ -boot-starter-3.5.2.jar reactive-streams-1.0.4.jar guava-20.0.jar sprin
+ gfox-spring-webmvc-2.10.5.jar spring-expression-5.3.21.jar mybatis-3.5.
+ 10.jar commons-lang3-3.12.0.jar spring-boot-starter-jdbc-2.7.1.jar jack
+ son-databind-2.13.3.jar netty-transport-native-unix-common-4.1.78.Final
+ .jar mybatis-spring-2.0.7.jar ojdbc6-11.2.0.3.jar jakarta.validation-ap
+ i-2.0.2.jar druid-spring-boot-starter-1.2.11.jar knife4j-spring-ui-2.0.
+ 9.jar springfox-bean-validators-2.10.5.jar spring-tx-5.3.21.jar mybatis
+ -plus-extension-3.5.2.jar netty-common-4.1.78.Final.jar spring-jdbc-5.3
+ .21.jar spring-plugin-metadata-2.0.0.RELEASE.jar slf4j-api-1.7.36.jar s
+ wagger-annotations-1.5.22.jar netty-handler-4.1.78.Final.jar spring-dat
+ a-keyvalue-2.7.1.jar spring-data-redis-2.7.1.jar jackson-module-paramet
+ er-names-2.13.3.jar mybatis-plus-annotation-3.5.2.jar tomcat-embed-core
+ -9.0.64.jar postgresql-42.3.6.jar checker-qual-3.5.0.jar netty-resolver
+ -4.1.78.Final.jar netty-transport-4.1.78.Final.jar log4j-api-2.17.2.jar
+  commons-io-2.11.0.jar springfox-swagger2-2.10.5.jar HikariCP-4.0.3.jar
+  knife4j-spring-boot-autoconfigure-2.0.9.jar jboss-logging-3.4.3.Final.
+ jar knife4j-annotations-2.0.9.jar hibernate-validator-6.2.3.Final.jar j
+ edis-4.2.2.jar mysql-connector-java-8.0.29.jar spring-web-5.3.21.jar co
+ mmons-fileupload-1.4.jar jackson-annotations-2.13.3.jar byte-buddy-1.12
+ .11.jar knife4j-core-2.0.9.jar kotlin-stdlib-jdk8-1.6.21.jar druid-1.2.
+ 11.jar classgraph-4.1.7.jar spring-context-5.3.21.jar tomcat-embed-webs
+ ocket-9.0.64.jar jsoup-1.11.3.jar snakeyaml-1.30.jar commons-codec-1.15
+ .jar spring-boot-starter-aop-2.7.1.jar kotlin-stdlib-common-1.6.21.jar 
+ jackson-datatype-jdk8-2.13.3.jar spring-webmvc-5.3.21.jar mybatis-plus-
+ 3.5.2.jar kotlin-stdlib-jdk7-1.6.21.jar aspectjweaver-1.9.7.jar netty-c
+ odec-4.1.78.Final.jar jsqlparser-4.4.jar
+

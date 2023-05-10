@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.lianghua.dao.PeriodDao">
+
+    <resultMap type="io.renren.modules.lianghua.entity.PeriodEntity" id="periodMap" autoMapping="true">
+        <result property="id" column="id"/>
+        <result property="longtouInstid" column="longtou_instId"/>
+        <result property="beginTime" column="begin_time"/>
+        <result property="timeZone" column="time_zone"/>
+        <result property="sub1Time" column="sub1_time"/>
+        <result property="sub2Time" column="sub2_time"/>
+        <result property="subEndTime" column="sub_end_time"/>
+        <result property="sub1EndTime" column="sub1_end_time"/>
+        <result property="sub2EndTime" column="sub2_end_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="sub1OrderCounts" column="sub1_order_counts"/>
+        <result property="sub2OrderCounts" column="sub2_order_counts"/>
+        <result property="account" column="account"/>
+        <result property="balance" column="balance"/>
+
+        <result property="orderCounts" column="order_counts"/>
+    </resultMap>
+    <select id="queryAll" resultMap="periodMap">
+        select * from period where account =#{value}
+    </select>
+    <select id="queryPeriodByAccount" resultMap="periodMap">
+        select * from period where account =#{value}
+    </select>
+    <insert id="insertLongtou" parameterType="hashmap" >
+        INSERT INTO period(longtou_instId,begin_time,time_zone,sub1_time,sub2_time,sub1_end_time,sub2_end_time,end_time,account,sub_end_time) VALUES (#{longtouInstid},#{beginTime},#{timeZone},#{sub1Time},#{sub2Time},#{sub1EndTime},#{sub2EndTime},#{endTime},#{account},#{subEndTime})
+    </insert>
+    <delete id="deleteByAccount">
+        delete from period where account =#{account}
+    </delete>
+</mapper>

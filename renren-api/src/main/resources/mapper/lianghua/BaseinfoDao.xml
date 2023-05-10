@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.lianghua.dao.BaseinfoDao">
+
+    <resultMap type="io.renren.modules.lianghua.entity.BaseinfoEntity" id="baseinfoMap">
+        <result property="id" column="id"/>
+        <result property="lastOrderInst" column="last_order_inst"/>
+        <result property="lastFirstInst" column="last_first_inst"/>
+        <result property="lastGridInst" column="last_grid_inst"/>
+        <result property="originCount" column="origin_count"/>
+        <result property="account" column="account"/>
+    </resultMap>
+    <select id="queryAll" resultMap="baseinfoMap">
+        select * from baseInfo where account =#{account}
+    </select>
+    <delete id="deleteByAccount">
+        delete from baseInfo where account =#{account}
+    </delete>
+
+</mapper>
