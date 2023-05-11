@@ -68,7 +68,7 @@ public class PeriodController {
         } else {
             entity.setSub2OrderCounts(entity.getSub2OrderCounts() + 1);
         }
-        if (params.get("account").equals(("-1"))==false)entity.setBalance(params.get("balance"));
+        if (params.get("balance").equals(("-1"))==false)entity.setBalance(params.get("balance"));
         PeriodDTO dto = new PeriodDTO();
         BeanUtils.copyProperties(dto, entity);
         periodService.update(dto);
